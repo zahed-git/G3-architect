@@ -1,0 +1,41 @@
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* team section */
+.team-sec {
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.team-container {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* column-gap: 24px;
+    row-gap: 24px; */
+    gap: 1.5rem;
+}
+
+.tem-discription {}
+
+.tem-h {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.of-our {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.feature {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
